@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh; /* Add this to ensure the page takes up the full height of the viewport */
+    background-color: #f0f0f0; /* Optional: Add a background color */
+}
+.bg_1{
+    background-image: url(https://img.freepik.com/free-photo/front-view-desk-concept-with-copy-space_23-2148459686.jpg?t=st=1708925388~exp=1708928988~hmac=9444b2f9703c3d7432711d1c8e978ffa8eb4b6e5f81673323bd98453ea71373c&w=740);
+    height: 100vh;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.a{
+   text-align: center;
+}
+.par_1{
+    text-align: center;
+}
+.par_2{
+    text-align: left;
+}
+.b1{
+    background-color: orange;
+    height: 35px;
+    width: 70px;
+    color: white;
+    font-size: 20px;
+    margin-left: 120px;
+}
+.par_3{
+    text-align: center;
+    text-decoration: underline;
+    
+}

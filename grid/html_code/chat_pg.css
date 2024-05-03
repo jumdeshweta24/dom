@@ -1,0 +1,51 @@
+.bg_ig{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://img.freepik.com/free-vector/glassy-effect-speech-bubble_1048-3727.jpg?t=st=1708930840~exp=1708934440~hmac=f6b2b73f28ad22ad041ba64d90c0ccebf198ec0c2292f6af1b1bda11c28792a3&w=740);
+}
+.chat{
+    margin: 0;
+    height: 50px;
+    width: 100vw;
+    background-color:#323f4b;
+    color: #ffffff;
+    text-align: center;
+}
+.chat_1{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.blue1{
+    background-color: #47a3f3;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-top: 15px;
+    margin-right: 15px;
+    height: 35px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-align: end;
+    padding-right: 10px;
+    align-self: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.grey1{
+    background-color: #52606d;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-top: 15px;
+    margin-right: 15px;
+    height: 35px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-align: start;
+    padding-left: 10px;
+    align-self: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+    
