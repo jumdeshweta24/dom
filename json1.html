@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>working with json</title>
+</head>
+<body>
+    <h1>Working with json</h1>
+    <script>
+        const mejson=`{
+            "name":"dcode",
+            "age":35,
+            "graduated":true,
+            "favouriteColors":[
+                "blue",
+            "green"]
+        }`;
+        console.log("type of",typeof(mejson));
+       const me=JSON.parse(mejson);
+       console.log(me.favouriteColors[0]) 
+
+       const car={
+        make:"Honda",
+        model1:"Civic"
+       };
+       console.log("type of car",typeof(car))
+       const carJson=JSON.stringify(car);
+       console.log(carJson);
+       console.log("type of car",typeof(carJson))
+    </script>
+</body>
+</html>
