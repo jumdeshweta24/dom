@@ -1,0 +1,13 @@
+h1{
+    color: green;
+    background-color: rgb(224, 218, 230);
+    font-size: 24px;
+}
+.abc{
+    color: rgb(14, 6, 5);
+    background-color: rgb(255, 0, 221);
+    font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    text-decoration: underline;
+}

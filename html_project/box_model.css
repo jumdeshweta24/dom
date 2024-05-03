@@ -1,0 +1,18 @@
+.a{
+    border: solid 5px darkblue;
+    padding: 10px 10px 10px 10px;
+    margin: 50px 40px 50px 40px;
+}
+.b{
+    margin: 50px 40px 50px 40px;
+    border: solid 2px green;
+}
+.c{
+    border: solid;
+}
+a{
+    border: solid palevioletred ;
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+}

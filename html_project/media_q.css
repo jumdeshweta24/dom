@@ -1,0 +1,23 @@
+.a{
+    background-color: blue;
+    background-size: cover;
+    height: 100vh;
+}
+.heading{
+    color:white;
+}
+@media print{
+    .heading{
+        color:rgba(243, 11, 11, 0.986);
+    }
+}
+@media(width:800px){
+    .a{
+        background-color: greenyellow;
+    }
+}
+@media(max-width:800px){
+    .a{
+        background-color: orange;
+    }
+}

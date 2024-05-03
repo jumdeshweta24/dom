@@ -1,0 +1,16 @@
+*{
+box-sizing: border-box;
+}
+.row{
+    border: solid 1px rgb(30, 255, 0);
+    height: 180px;
+    font-size: 0px;
+}
+    
+   
+.col{
+    border: solid 2px black;
+    display: inline-block;
+    height: 100%;
+    width:33.33%;
+}

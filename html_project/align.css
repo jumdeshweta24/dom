@@ -1,0 +1,22 @@
+div{
+    width: 400px;
+}
+.a{
+text-align: left;
+border-left: solid 5px blue;
+}
+.b{
+    text-align: right;
+    line-height: 50px;
+    border-right: solid 8px red;
+    
+}
+.c{
+    text-align: center;
+    border-top: solid 8px rgb(238, 255, 0);
+}
+.d{
+    /* text-align: justify;
+    border-bottom: dotted 5px green; */
+    border: solid 5px blueviolet;
+}
