@@ -1,0 +1,93 @@
+.outer {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(20, 20, 97);
+}
+
+.jane {
+    width: 100%;
+    color: white;
+    height: 20vh;
+    background-color: rgb(20, 20, 97);
+    overflow: hidden;
+    
+}
+
+.jane h3,
+.jane h1 {
+    margin: 0;
+    /* font-size: 24px; */
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.heading {
+    text-align: center;
+    color: rgb(90, 89, 89);
+    margin-bottom: 20px;
+}
+
+.main {
+    background-color: white;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 100%; /* Occupy full width */
+}
+
+.form {
+    width: 50%;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: rgb(245, 237, 237);
+    border: solid gainsboro;
+}
+
+
+.form label {
+    display: block;
+    align-items: left;
+    margin-bottom: 5px;
+    color: rgb(90, 89, 89);
+}
+
+.form input {
+    padding: 8px;
+    height: 20px;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    background-color: rgb(20, 20, 97);
+    color: white;
+    height: 35px;
+    width: 70px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    margin-left: 540px;
+}
+
+.bookmarks {
+    width: 50%;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin-left: 22%;
+}
+

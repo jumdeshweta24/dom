@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Mark</title>
+    <link rel="stylesheet" href="book_mark.css">
+    <script src="book_mark.js" defer></script>
+</head>
+<body>
+    <div class="outer">
+        <div class="jane">
+            <h3>Hello</h3>
+            <h1>Jane Doe</h1>
+        </div>
+        <div class="main">
+            <div class="heading">
+                <h2>Bookmark Your Favorite Sites</h2>
+            </div>
+            <div class="form-container">
+                <div class="form">
+                    <label for="site_name">SITE NAME</label>
+                    <input type="text" id="site_name" placeholder="Enter site name">
+                    <p id="site_n"></p>
+                    <label for="site_url">SITE URL</label>
+                    <input type="text" id="site_url" placeholder="Enter site URL">
+                    <p id="site_u"></p>
+                    <button class="submit-btn" onclick="validate_form()">Submit</button>
+                </div>
+            </div>
+            <div class="bookmarks">
+                <P id="para"></P>
+                <a id="link1"></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
