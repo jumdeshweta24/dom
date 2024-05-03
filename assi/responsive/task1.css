@@ -1,0 +1,42 @@
+body{
+    background-image: url(https://img.freepik.com/free-photo/blue-gradient-grunge-watercolor-background_1409-1723.jpg?w=740);
+    margin: 0;
+}
+.container-fluid{
+    background-color: black;
+    
+}
+.navbar-brand,.nav-link{
+    color: white!important;
+}
+.ig{
+    width: 40px;
+    height: 40px;
+}
+.navbar{
+    background-image: url(https://img.freepik.com/free-photo/blue-gradient-grunge-watercolor-background_1409-1723.jpg?w=740);
+   
+}
+#navbarSupportedContent{
+    margin-left: 60px;
+}
+.con{
+    width:100%;
+    height: 400px;
+   
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+.b1{
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-top: 20px;
+    
+}

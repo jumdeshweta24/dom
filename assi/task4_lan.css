@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh; 
+    background-color: #faf8f8; 
+}
+.out{
+    height: 1000px;
+    width: 500px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://img.freepik.com/premium-photo/abstract-modern-tech-programming-code-screen-developer-c-programming-language-computer-script-technology-background-software_505353-472.jpg?w=900);
+}
+.nav{
+    flex-grow: 1;
+}  
+.a{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding-left: 30px;
+}
+.abc{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 20px;
+    color: rgb(58, 57, 57);
+    background-color:white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-left: 30px;
+    padding-right: 15px;
+}
+.div_1{
+    height: 200px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.bx1{
+    border: solid 2px grey;
+    height: 120px;
+    width: 120px;
+    margin-left: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+   color: rgb(43, 42, 42);
+    text-align: center;
+}
+.ig{
+    height: 70px;
+    width: 100px;
+    padding-top: 5px;
+    padding-left: 20px;
+
+}

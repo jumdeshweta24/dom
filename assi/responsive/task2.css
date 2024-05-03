@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+/* .heading{
+        text-align: center;
+         margin-bottom: 20px; 
+} */
+    
+.div1 {
+    /* background-color: #f0f0f0; */
+    /* padding: 10px; */
+    text-align: center;
+}
+
+.cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.p1, .p2, .p3 ,.p4,.p5,.p6{
+    flex-basis: 16.666%;
+    margin: 10px;
+}
+
+.ig {
+    max-width: 80%;
+    height: auto;
+}
