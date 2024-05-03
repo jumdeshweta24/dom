@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="myContainer">
+
+    </div>
+
+    <script>
+        let btnElement=document.createElement("button");
+        btnElement.textContent="Change Heading";
+        btnElement.onclick=function(){
+            console.log("click event triggered");
+        };
+        document.querySelector('.myContainer').appendChild(btnElement);
+    </script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>happy and unhappy onclick</title>
+    <style>
+        button{
+            background-color: blue;
+            color: white;
+            height: 40px;
+            border-radius: 10px;
+            position: absolute;
+            bottom: 200px; 
+            left: 10px; 
+        
+        }
+        .ig{
+            width: 300px; 
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <img class="ig" src="https://emojiisland.com/cdn/shop/products/Unhappy_Face_Emoji_Icon_ios10_large.png?v=157160609">
+    <button onclick="changeEmohi()">Unhappy</button>
+
+    <script>
+        var imgEle=document.querySelector(".ig");
+        var btEle=document.querySelector("button");
+
+        function changeEmohi(){
+        btEle.innerText="Happy";
+        imgEle.src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/65532/happy-emoji-clipart-md.png";
+        }
+       
+    </script>
+</body>
+</html>
